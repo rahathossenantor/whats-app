@@ -1,0 +1,96 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    outline: 00px;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+}
+body{
+    background-color: #DBDDDD;
+}
+
+/* Header part start */
+.w_01{
+    width: 100%;
+    background-color: #00A884;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+.head_logo{
+    height: 45px;
+    padding: 30px 00px 110px 00px;
+}
+.head_logo img{
+    width: 45px;
+    float: left;
+}
+.head_logo p{
+    float: left;
+}
+.head_logo p span{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    line-height: 45px;
+    padding-left: 20px;
+}
+.help{
+    clear: both;
+}
+/* Header part end */
+
+/* Login part start */
+.log_container{
+    width: 50%;
+    height: 950px;
+    margin: auto;
+}
+.login_page{
+    height: 900px;
+    width: 50%;
+    background-color: white;
+    box-shadow: 00px 00px 30px 10px gray;
+    position: absolute;
+    top: 130px;
+}
+.login_page_01{
+    width: 62%;
+    float: left;
+    margin-right: 01%;
+}
+.login_page_01 h1{
+    padding: 80px 00px 50px 70px;
+    font-size: 33px;
+    font-weight: 200;
+}
+.login_page_01 p{
+    padding: 00px 00px 00px 70px;
+    font-size: 20px;
+}
+.login_page_02{
+    width: 37%;
+    float: left;
+}
+.login_page_02 img{
+    padding: 80px 00px 00px 00px;
+}
+.login_page_03{
+    width: 100%;
+}
+.login_page_03 p a{
+    font-size: 16px;
+    color: #00A884;
+    text-decoration: none;
+}
+.login_page_03 p{
+    padding: 20px 00px 40px 70px;
+}
+.login_page_04{
+    width: 60%;
+    margin: auto;
+}
+.login_page_04 img{
+    margin-top: 40px;
+}
+/* Login part end */

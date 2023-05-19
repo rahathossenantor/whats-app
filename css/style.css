@@ -1,0 +1,255 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    outline: 00px;
+    font-family: roboto,sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* Navigation part start */
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #128C7E;
+}
+#nav_main{
+    width: 100%;
+    background-color: #128C7E;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navigation{
+    width: 100%;
+}
+.nav_logo{
+    width: 30%;
+    float: left;
+}
+.nav_logo img{
+    padding-top: 25px;
+    margin-left: 170px;
+}
+.nav_menu{
+    width: 70%;
+    float: left;
+}
+.nav_menu ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+.nav_menu ul li{
+    width: 140px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: roboto,sans-serif;
+}
+.help{
+    clear: both;
+}
+/* Navigation part end */
+
+/* feature part start */
+.container_2nd{
+    width: 50%;
+    margin: auto;
+}
+.feature_main{
+    padding-top: 140px;
+}
+.feature_content{
+    width: 47%;
+    float: left;
+    margin-right: 03%;
+}
+.feature_content h2{
+    font-size: 33px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.feature_content p{
+    font-size: 18px;
+    line-height: 26px;
+}
+.feature_content .condition{
+    font-size: 16px;
+    line-height: 21px;
+    color: #5e5e5e;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+.feature_image{
+    width: 47%;
+    float: left;
+    margin-left: 03%;
+}
+.platform_list ul li a{
+    color: black;
+    font-size: 18px;
+}
+.platform_list ul{
+    list-style-type: none;
+}
+.platform_list ul li{
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+}
+/* feature part end */
+
+/* About part start */
+.about_contant01{
+    width: 49%;
+    margin-right: 01%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    float: left;
+    background-color: #D8E8EA;
+    text-align: center;
+}
+.about_contant01 h1{
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.about_contant01 p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #1c1e21;
+    margin-bottom: 80px;
+}
+.about_contant01 p a{
+    color: rgb(72, 197, 247);
+}
+.about_contant01 p a:hover{
+    border-bottom: 01px solid rgb(72, 197, 247);
+}
+.about_contant02{
+    width: 49%;
+    margin-left: 01%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    float: left;
+    background-color: #E7F0E4;
+    text-align: center;
+}
+.about_contant02 .circle{
+    width: 340px;
+    height: 340px;
+    margin: auto;
+    margin-top: 85px;
+    margin-bottom: 65px;
+    background-color: #77D7C8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_contant02 .circle p{
+    font-size: 35px;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.about_contant02 h3{
+    font-size: 16px;
+    color: #5e5e5e;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+.about_contant02 h1{
+    font-size: 34px;
+    font-weight: 700;
+    color: #1c1e21;
+    padding-bottom: 33px;
+}
+.about_contant02 p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #1c1e21;
+    font-weight: 400;
+    padding-bottom: 142px;
+}
+.explore{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.explore a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #128c7e;
+    padding: 20px 30px;
+    border: 02px solid #77D7C8;
+    border-radius: 40px;
+}
+/* About part end */
+
+/* Footer part start */
+footer{
+    background-color: #273443;
+}
+.foot_container{
+    width: 60%;
+    margin: auto;
+}
+.foot_list{
+    width: 25%;
+    float: left;
+}
+.foot_list h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    color: white;
+}
+.foot_list ul{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.foot_list ul li{
+    height: 30px;
+}
+.foot_list ul li a{
+    font-size: 18px;
+    font-weight: 300;
+}
+.foot_list ul li a:hover{
+    text-decoration: underline;
+}
+.last_foot_main{
+    background-color: #1C1E21;
+}
+.last_footer_container{
+    width: 60%;
+    margin: auto;
+}
+.last_foot_01{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.last_foot_01 p{
+    font-size: 18px;
+    color: white;
+    padding: 25px 00px;
+}
+.last_foot_02{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.last_foot_02 a{
+    font-size: 18px;
+    height: 50px;
+    line-height: 70px;
+}
+/* Footer part end */
